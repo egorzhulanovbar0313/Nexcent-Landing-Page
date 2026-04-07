@@ -4,6 +4,7 @@
 A minimal landing page built from a Figma design. This project demonstrates core frontend skills including semantic HTML, responsive layout, and modern CSS techniques.
 
 ## Live Demo
+https://egorzhulanovbar0313.github.io/Nexcent-Landing-Page/
 
 
 ## Design
