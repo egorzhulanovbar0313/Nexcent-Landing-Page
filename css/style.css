@@ -66,6 +66,7 @@ body {
     font-family: "Inter", sans-serif;
     border: 0;
     border-radius: 6px;
+    line-height: 20px;
 }
 
 .btn--primary {
@@ -128,3 +129,71 @@ body {
         border: 1px solid #4CAF4F;
     }
 }
+
+/* Hero section styles for desktop */
+.hero {
+    background-color: #F5F7FA;
+}
+
+.hero__wrapper {
+    display: flex;
+    padding-top: 96px;
+    padding-bottom: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__title {
+    color: #4D4D4D;
+    font-size: 64px;
+    line-height: 76px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.hero__accent {
+    color: #4CAF4F;
+}
+
+.hero__text {
+    color: #717171;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.hero__btn {
+    padding: 14px 32px;
+    border-radius: 4px;
+    line-height: 24px;
+}
+
+.hero__pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.hero__dot {
+    width: 10px;
+    height: 10px;
+}
+
+.hero__dot:not(:last-child) {
+    margin-right: 8px;
+}
+
+.hero__dot--disabled:not(:hover) {
+    opacity: 30%;
+}
+
+@keyframes hero-animation {
+    from {transform: scale(0.95);}
+    to {transform: scale(1.05);}
+}
+.hero__media {
+    animation: hero-animation 2s ease-in-out infinite alternate;
+}
+
