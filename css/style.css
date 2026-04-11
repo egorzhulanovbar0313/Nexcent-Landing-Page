@@ -106,9 +106,24 @@ body {
         padding: 0 30px; 
     }
 
-    .header__item:nth-child(2), .header__item:nth-child(3), .header__item:nth-child(4)  {
+    .header__item:nth-child(2), .header__item:nth-child(3), .header__item:nth-child(5)  {
         display: none;
     }
+    .btn--secondary.header__btn {
+        border: 1px solid #4CAF4F;
+    }
+}
+
+/* Header media query for mobile */
+@media (min-width: 320px) and (max-width: 425px) {
+    .container--header {
+        padding: 0 5px;
+    }
+
+    .header__list {
+        display: none;
+    }
+    
     .btn--secondary.header__btn {
         border: 1px solid #4CAF4F;
     }
