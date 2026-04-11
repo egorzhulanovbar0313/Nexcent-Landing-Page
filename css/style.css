@@ -194,6 +194,35 @@ body {
     to {transform: scale(1.05);}
 }
 .hero__media {
+    width: 391px;
+    height: 407px;
     animation: hero-animation 2s ease-in-out infinite alternate;
+}
+
+/* Hero section media query for tablet */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .hero__wrapper {
+        flex-direction: column;
+    }
+
+    .hero__content {
+        display: flex;
+        flex-direction: column;
+        padding: 62px 0;
+    }
+
+    .hero__media {
+        margin-bottom: 20px;
+    }
+
+    .hero__btn {
+        width: 128px;
+        align-self: center;
+    }
 }
 
