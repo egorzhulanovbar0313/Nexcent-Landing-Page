@@ -350,3 +350,32 @@ body {
     height: 56px;
     margin-bottom: 18px;
 }
+
+.community__feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.feature__media {
+    animation: hero-animation 2s ease-in-out infinite alternate;
+    margin-right: 49px;
+}
+
+.feature__title, .feature__text {
+    text-align: start;
+}
+
+.feature__title {
+    margin-bottom: 16px;
+}
+
+.feature__text {
+    margin-bottom: 32px;
+}
+
+.community__btn {
+    border-radius: 4px;
+    padding: 14px 32px;
+}
