@@ -413,3 +413,33 @@ body {
         align-self: center;
     }
 }
+
+/*Community section media query for tablet */
+@media (min-width: 320px) and (max-width: 425px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .segments__list  {
+        flex-direction: column;
+    }
+
+    .community__feature {
+        flex-direction: column;
+    }
+
+    .feature__title,
+    .feature__text {
+        text-align: center;
+    }
+
+    .feature__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .community__btn {
+        max-width: 151px;
+        align-self: center;
+    }
+}
